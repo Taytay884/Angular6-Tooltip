@@ -1,0 +1,7 @@
+<div class="tooltip-container">
+  <app-tooltip-content
+    *ngFor="let tooltip of tooltipService.components"
+    [title]="tooltip.title"
+    [ref]="tooltip.ref">
+  </app-tooltip-content>
+</div>
