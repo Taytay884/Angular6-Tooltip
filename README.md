@@ -3,10 +3,10 @@ Angular 6 directive for a tooltip.
 
 ## Usage:
 * Add `<app-tooltip-container></app-tooltip-container>` to `app.component.html`.
-* Then you can use: 
+* Then you can use the directive: 
 ```
 <span appTooltip [tooltipTitle]="productName">
-{{productName}}
+  {{productName}}
 </span>
 ```
 
