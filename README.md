@@ -8,5 +8,5 @@ Angular 6 directive for a tooltip.
 <span appTooltip [tooltipTitle]="productName">
 {{productName}}
 </span>
-``
+```
 
